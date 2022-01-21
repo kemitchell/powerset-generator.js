@@ -1,0 +1,20 @@
+{
+  "name": "powerset-generator",
+  "version": "0.0.0",
+  "description": "generate powersets one subset at a time",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/powerset-generator.js",
+  "license": "BlueOak-1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "defence-cli": "^3.0.1",
+    "replace-require-self": "^1.1.1",
+    "standard": "^16.0.4"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "defence -i javascript < README.md | replace-require-self | node"
+  }
+}
