@@ -1,6 +1,6 @@
 {
   "name": "powerset-generator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "generate powersets one subset at a time",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/powerset-generator.js",
